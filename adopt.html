@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>投票頁</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav__link">首頁</a>
+    <a href="animals.html" class="nav__link">貓貓情報</a>
+    <a href="adopt.html" class="nav__link">投票頁面</a>
+    <a href="contact.html" class="nav__link">聯絡我們</a>
+  </nav>
+
+  <div class="container">
+    <h1>投票頁</h1>
+    <h3>請填寫以下資料，我們將會統計投票結果並做為下版本情報的參考。</h3>
+
+    <form action="thankyou.html" method="get">
+      <label for="name">暱稱：</label>
+      <input type="text" id="name" name="name" placeholder="請輸入暱稱" required>
+
+      <label for="email">電子郵件：</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+      <label for="phone">UID：</label>
+      <input type="tel" id="phone" name="phone" placeholder="0912-345-678" required>
+
+      <label for="animal">想領養的動物：</label>
+      <select id="animal" name="animal" required>
+          <option value="">請選擇卯咪</option>
+  <optgroup label="⚔️ 攻擊">
+    <option value="女武神貓咪">女武神貓咪</option>
+    <option value="何莱·露貓">何莱·露貓</option>
+    <option value="褻瀆貓">褻瀆貓</option>
+  </optgroup>
+  <optgroup label="🛡️ 坦克">
+    <option value="頭盔貓">頭盔貓</option>
+  </optgroup>
+  <optgroup label="💚 輔助">
+    <option value="菈妮貓">菈妮貓</option>
+    <option value="惡兆貓">惡兆貓</option>
+  </optgroup>
+</select>
+
+      <p>偏好遊玩職業：</p>
+      <label><input type="radio" name="house" value="apartment"> 攻擊</label>
+      <label><input type="radio" name="house" value="house"> 坦克</label>
+      <label><input type="radio" name="house" value="other"> 輔助</label>
+
+      <p>遊玩版本（可複選）：</p>
+      <label><input type="checkbox" name="experience" value="dog"> S12大便貓賽季</label>
+      <label><input type="checkbox" name="experience" value="cat"> S13黃金律法賽季</label>
+      <label><input type="checkbox" name="experience" value="none"> S14城寨賽季</label>
+
+      <label for="reason">給些建議：</label>
+      <textarea id="reason" name="reason" rows="4" placeholder="請簡述對這版本的看法..."></textarea>
+
+      <div class="btn-group">
+        <button class="btn" type="submit">提交投票解果</button>
+      </div>
+    </form>
+  </div>
+
+
+  <footer>
+    © 艾爾登貓貓情報網 | 想變強，從選對貓開始
+  </footer>
+</body>
+</html>

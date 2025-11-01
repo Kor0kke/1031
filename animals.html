@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>版本卯咪</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav__link">首頁</a>
+    <a href="animals.html" class="nav__link">貓貓情報</a>
+    <a href="adopt.html" class="nav__link">投票頁面</a>
+    <a href="contact.html" class="nav__link">聯絡我們</a>
+  </nav>
+
+  <div class="container">
+    <h1>⚔️版本強勢卯咪⚔️</h1>
+    <p style="text-align:center;">各有特色，都是版本答案!</p>
+
+    <div class="gallery">
+      <!-- 頭盔貓 -->
+  <div class="animal-card">
+    <img src="image/live1.jpg" alt="頭盔貓" class="animal-img" onclick="document.getElementById('info1').showModal()">
+    <p>頭盔貓</p>
+  </div>
+
+  <dialog id="info1" class="animal-dialog">
+    <h2>頭盔貓</h2>
+    <img src="image/live1.jpg" alt="頭盔貓" class="dialog-img">
+    <p>「誰說我頭大?」<br>特色：頭很硬、表情呆滯<br>評價：適合新手選擇，有不錯的防禦力(但也只有頭硬)</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+      <!-- 女武神貓咪 -->
+  <div class="animal-card">
+    <img src="image/live2.jpg" alt="女武神貓咪" class="animal-img" onclick="document.getElementById('info2').showModal()">
+    <p>女武神貓咪</p>
+  </div>
+
+  <dialog id="info2" class="animal-dialog">
+    <h2>女武神貓咪</h2>
+    <img src="image/live2.jpg" alt="女武神貓咪" class="dialog-img">
+    <p>「你要吃薯條嗎」<br>特色：以劍技「水鳥出名」，只是施展完後頭會很暈<br>評價：貓咪們中操作性最高的角色，打出連段的話會給與對手很大的壓力</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+        <!-- 菈妮貓 -->
+  <div class="animal-card">
+    <img src="image/live3.jpg" alt="菈妮貓" class="animal-img" onclick="document.getElementById('info3').showModal()">
+    <p>菈妮貓</p>
+  </div>
+
+  <dialog id="info3" class="animal-dialog">
+    <h2>菈妮貓</h2>
+    <img src="image/live3.jpg" alt="菈妮貓" class="dialog-img">
+    <p>「你好，我吃一點」<br>特色：帽子很大一頂、很餓<br>評價：雖然以魔法攻擊作為主要輸出，但是在吃東西(物理)也有不俗的傷害</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+        <!-- 何莱·露貓 -->
+  <div class="animal-card">
+    <img src="image/live4.jpg" alt="何莱·露貓" class="animal-img" onclick="document.getElementById('info4').showModal()">
+    <p>何莱·露貓</p>
+  </div>
+
+  <dialog id="info4" class="animal-dialog">
+    <h2>何莱·露貓</h2>
+    <img src="image/live4.jpg" alt="何莱·露貓" class="dialog-img">
+    <p>「將此刻銘刻於你那可憐的錢包之上」<br>特色：大斧頭很帥<br>評價：用斧頭作為主要武器，但也可以使用格鬥技把別貓摔的咪咪茂茂</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+          <!-- 惡兆貓 -->
+  <div class="animal-card">
+    <img src="image/live5.jpg" alt="惡兆貓" class="animal-img" onclick="document.getElementById('info5').showModal()">
+    <p>惡兆貓</p>
+  </div>
+
+  <dialog id="info5" class="animal-dialog">
+    <h2>惡兆貓</h2>
+    <img src="image/live5.jpg" alt="惡兆貓" class="dialog-img">
+    <p>「你說誰頭尖尖的」<br>特色：帥氣斜劉海，不知道披風下有什麼<br>評價：各方面水平不錯，但小心「瑪爾基特的罐頭」是他的弱點</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+          <!-- 褻瀆貓 -->
+  <div class="animal-card">
+    <img src="image/live6.jpg" alt="褻瀆貓" class="animal-img" onclick="document.getElementById('info6').showModal()">
+    <p>褻瀆貓</p>
+  </div>
+
+  <dialog id="info6" class="animal-dialog">
+    <h2>褻瀆貓</h2>
+    <img src="image/live6.jpg" alt="褻瀆貓" class="dialog-img">
+    <p>「痾痾阿阿 燒死你啊!」<br>特色：很大隻，會噴火，很臭<br>評價：出色的火焰傷害，但太大隻了動不了</p>
+    <button class="btn" onclick="this.closest('dialog').close()">關閉</button>
+  </dialog>
+</div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 艾爾登貓貓情報網 | 想變強，從選對貓開始
+  </footer>
+</body>
+</html>
